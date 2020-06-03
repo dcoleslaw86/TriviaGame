@@ -187,7 +187,6 @@ function endGame() {
     $(".timer, .question, .answer, .message_recieved, .correct, .photo-holder, .times-up").empty();
     $(".gameover").text("That's a wrap.");
     $(".message").text("Are you worthy of the Schwartz?");
-    $(".message").text("Lets find out.");
     $(".wins").text("Good: " + wins);
     $(".losses").text("Bad: " + losses);
     $(".skipped").text("Just didn't even try: " + skippedCount);
