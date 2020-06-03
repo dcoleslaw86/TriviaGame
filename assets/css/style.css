@@ -1,0 +1,74 @@
+body {
+    background-image: url(../images/bg.png);
+    color: white;
+    font-family: sans-serif;
+}
+.container {
+    height: 100%;
+    margin: 10px auto 5px auto;
+    text-align: center;
+}
+.logo {
+    margin-top: -50px;
+}
+.timer {
+    margin-top: -25px;
+}
+span{
+    color: goldenrod;
+}
+h3:hover {
+    color: goldenrod;
+}
+h1 {
+    font-weight: 400;
+    font-size: 80px;
+    margin-top: -90px;
+    font-family: serif;
+}
+h2, .question{
+    font-size: 1.75em;
+    font-weight: 700;
+}
+h3 {
+    margin: 0px 29% 0px 29%;
+    padding: 10px;
+    cursor: pointer;
+}
+button {
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 700;
+    background-color: white;
+    border-color: transparent;
+    border-radius: 0.5em;
+}
+.message_recieved, .correct, .times-up {
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 600;
+    color: white;
+}
+.wins, .losses, .skipped {
+    font-size: 24px;
+    font-weight: 600;
+}
+.message, .do_over {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.gameover {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.photo-holder {
+    margin-bottom: 5px;
+}
+h3:empty {
+    display: none;
+}
+div:empty {
+    display: none;
+}
