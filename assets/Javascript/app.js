@@ -114,13 +114,13 @@ $(document).ready(function() {
     gameStart();
     function gameStart() {
         var startBtn = $("<button>");
-        startBtn.text("Start");
-        $(".start").append(startBtn);
+        startBtn.text("Let's Begin");
+        $(".begin").append(startBtn);
         console.log(questionGen.length)
     }
 });
-$(".start").on("click", function(){
-    $(".start").empty();
+$(".begin").on("click", function(){
+    $(".begin").empty();
     randomQuestion();
 });
 function randomQuestion() { 
